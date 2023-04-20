@@ -11,15 +11,15 @@ if ticket > 999999 or ticket < 100000:
 
 sum1 = 0
 while ticket > 1000:         # цикл отрабатывает первые три цифры числа
-     sum1 = sum1 + ticket%10
-     ticket = ticket//10
+     sum1 = sum1 + ticket % 10
+     ticket = ticket // 10
 
 number = ticket % 1000  # число, равное первым трем цифрам
 sum2 = 0
 
 while number > 0:                 # цикл отрабатывает последние три цифры числа
-     sum2 = sum2 + number%10
-     number = number//10
+     sum2 = sum2 + number % 10
+     number = number // 10
 
 if sum1 == sum2:
     print('yes')
