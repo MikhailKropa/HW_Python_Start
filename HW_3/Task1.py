@@ -19,3 +19,5 @@ for item in arr:
         count += 1
 print(arr)
 print("->", count)
+
+
