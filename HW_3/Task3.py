@@ -23,27 +23,3 @@ for i in word.upper():
    
 print(sum)
 
-
-
-
-
-
-
-
-
-# word = input('Введите слово: ')
-# sum = 0
-# for i in word.upper():
-#     for key in dictionary.keys():
-#         if i in key:
-#             sum += dictionary[key]
-# print(sum)
-
-
-# sum = 0
-# for i in input('Введите слово: '):
-#     for key in dictionary:
-#         if i.upper() in key:
-#             sum += dictionary.get(key)
-# print(sum)
-
