@@ -16,9 +16,34 @@ dictionary = {'A': 1, 'E': 1, 'I': 1, 'O': 1, 'U': 1, 'L': 1, 'N': 1, 'S': 1, 'T
             'Ц': 5, 'Ч': 5, 'J': 8, 'X': 8, 'Ш': 8, 'Э': 8, 'Ю': 8, 'Q': 10, 'Z': 10, 'Ф': 10, 'Щ': 10,
             'Ъ': 10}
 
+word = input('Введите слово: ')
 sum = 0
-for i in input('Введите слово: '):
-    for key in dictionary:
-        if i.upper() in key:
-            sum += dictionary.get(key)
+for i in word.upper():
+   sum += dictionary.get(i, 0)
+   
 print(sum)
+
+
+
+
+
+
+
+
+
+# word = input('Введите слово: ')
+# sum = 0
+# for i in word.upper():
+#     for key in dictionary.keys():
+#         if i in key:
+#             sum += dictionary[key]
+# print(sum)
+
+
+# sum = 0
+# for i in input('Введите слово: '):
+#     for key in dictionary:
+#         if i.upper() in key:
+#             sum += dictionary.get(key)
+# print(sum)
+
